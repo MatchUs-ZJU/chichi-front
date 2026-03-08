@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-800 antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-violet-500 to-primary-600 text-white font-semibold 
+           px-8 py-4 rounded-full shadow-lg shadow-violet-500/30 
+           hover:shadow-xl hover:shadow-violet-500/40 hover:-translate-y-0.5 
+           active:translate-y-0 transition-all duration-300;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-violet-600 font-semibold px-8 py-4 rounded-full 
+           border-2 border-violet-200 shadow-md
+           hover:border-violet-400 hover:shadow-lg hover:-translate-y-0.5 
+           active:translate-y-0 transition-all duration-300;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-violet-600 to-primary-600 bg-clip-text text-transparent;
+  }
+  
+  .card {
+    @apply bg-white rounded-2xl shadow-lg border border-violet-100/50 
+           hover:shadow-xl hover:border-violet-200 transition-all duration-300;
+  }
+  
+  .section-container {
+    @apply w-full px-4 sm:px-6 lg:px-8 xl:px-12;
+  }
+  
+  .glass-effect {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c4b5fd;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a78bfa;
+}
