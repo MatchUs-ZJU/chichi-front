@@ -79,7 +79,7 @@ export default function Footer() {
             {/* ICP 备案区域 - 预留 */}
             <div className="flex flex-col items-center md:items-end gap-1">
               <p className="text-gray-400 text-xs">
-                ICP备案号：浙ICP备2023016045号
+                ICP备案号:
               </p>
             </div>
           </div>
