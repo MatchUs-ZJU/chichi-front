@@ -1,4 +1,4 @@
-# 赤赤说媒 - Landing Page
+# AI红娘 - Landing Page
 
 基于 AI 红娘智能匹配服务的官方落地页。
 
@@ -103,4 +103,4 @@ pnpm preview
 
 ## 许可证
 
-Copyright © 2024 赤赤说媒. All rights reserved.
+Copyright © 2024 AI红娘. All rights reserved.

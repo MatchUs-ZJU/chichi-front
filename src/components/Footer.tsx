@@ -14,7 +14,7 @@ export default function Footer() {
                             flex items-center justify-center shadow-lg">
                 <Heart className="w-5 h-5 text-white fill-white" />
               </div>
-              <span className="text-xl font-bold gradient-text">赤赤说媒</span>
+              <span className="text-xl font-bold gradient-text">AI红娘</span>
             </div>
             <p className="text-gray-600 mb-4 max-w-sm leading-relaxed">
               AI 驱动的智能婚恋匹配平台，基于大模型语义理解，让每一次相遇都更有可能。
@@ -73,7 +73,7 @@ export default function Footer() {
         <div className="border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-gray-500 text-sm">
-              © {currentYear} 赤赤说媒. All rights reserved.
+              © {currentYear} AI红娘. All rights reserved.
             </p>
             
             {/* ICP 备案区域 - 预留 */}

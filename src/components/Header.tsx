@@ -35,7 +35,7 @@ export default function Header() {
                           group-hover:shadow-violet-500/50 transition-shadow duration-300">
               <Heart className="w-5 h-5 text-white fill-white" />
             </div>
-            <span className="text-xl font-bold gradient-text">赤赤说媒</span>
+            <span className="text-xl font-bold gradient-text">AI红娘</span>
           </a>
 
           {/* Desktop Navigation */}
